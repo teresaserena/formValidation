@@ -2,9 +2,9 @@
   "name": "form-validation",
   "version": "1.0.0",
   "description": "A basic form validation",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "test": "tester"
+    "start": "node server.js"
   },
   "keywords": [
     "forms"
@@ -19,5 +19,8 @@
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
     "webpack": "^3.11.0"
+  },
+  "dependencies": {
+    "express": "^4.16.2"
   }
 }
